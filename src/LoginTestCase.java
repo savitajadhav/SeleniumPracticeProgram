@@ -9,7 +9,7 @@ public class LoginTestCase {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\savita.jadhav\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://aws-dev-1be627-c.adweb.com.au/cfr/user/login.aspx");
+		driver.get("https://rest-dev-test.com/cfr/user/login.aspx");
 		//Find Elements by id
 		/*driver.findElement(By.id("textUsername")).sendKeys("iphone");
 		driver.findElement(By.id("textPassword")).sendKeys("iphone@123");
@@ -23,8 +23,8 @@ public class LoginTestCase {
 		driver.findElement(By.name("textPassword")).sendKeys("iphone@123");
 		driver.findElement(By.className("button")).click();*/
 		//Find element by Tag Name
-		driver.findElement(By.name("textUsername")).sendKeys("iphone");
-		driver.findElement(By.name("textPassword")).sendKeys("iphone@123");
+		driver.findElement(By.name("textUsername")).sendKeys("test");
+		driver.findElement(By.name("textPassword")).sendKeys("test@123");
 		driver.findElement(By.tagName("input")).click();
 
 	}
