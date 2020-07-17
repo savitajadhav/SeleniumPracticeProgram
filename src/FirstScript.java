@@ -10,7 +10,7 @@ public class FirstScript {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\savita.jadhav\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
-		driver.navigate().to("https://aws-dev-1be627.adweb.com.au");
+		driver.navigate().to("https://www.yahoo.com");
 		Thread.sleep(2000);
 		driver.navigate().back();
 		Thread.sleep(2000);
